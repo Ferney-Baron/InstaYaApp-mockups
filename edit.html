@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body class="bg-light p-2  bg-opacity-25 pt-0 ps-0 pe-0 ">
+    <nav class="navbar navbar-expand-lg bg-black">
+        <a href="home.html" class="mx-4" style="text-decoration: none; color: white; font-size: 1.5rem;">INSTAYA</a>
+        <div class="container-fluid d-flex flex-row-reverse">
+            <button type="button" class="btn btn-outline-light mx-2"><a style="text-decoration: none;" class="salir"  href="index.html">Salir</a></button>
+        </div>
+        </div>
+    </nav>
+    <main class="mx-5 mt-5">
+        <h2>Editar orden</h2>
+        <form class="row g-3">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">Nombre destinario</label>
+              <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label">Cedula destinario</label>
+              <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefaultUsername" class="form-label">Ciudad recogida</label>
+              <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">Direccion de entrega</span>
+                <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+           
+            <div class="col-md-3">
+              <label for="validationDefault04" class="form-label">Ciudad entrega</label>
+              <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Fecha</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Dimensiones</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Agree to terms and conditions
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-dark">Actualizar</button>
+
+            </div>
+          </form>
+    </main>
+    <footer>
+        <p>Create by Me</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

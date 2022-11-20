@@ -1,0 +1,62 @@
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+h1 {
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.salir:hover {
+    color: black;
+}
+
+.salir {
+    color: white;
+}
+
+.main-home {
+    margin-top: 0;
+
+}
+
+.h1-home {
+    color: black;
+    font-size: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: .1rem solid black;
+    background-color: black;
+    color: white;
+    padding: .7rem;
+}
+
+.create {
+    color: black;
+}
+
+.create:hover {
+    color: white;
+}
+
+.form-register {
+    padding: 3rem 5rem 1rem 5rem;
+    width: 40rem;
+}
